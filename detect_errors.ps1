@@ -13,7 +13,7 @@ param (
 
 # Show help message and exit
 if ($help) {
-    Write-Host "`nUsage: .\EventLogTool.ps1 [options]`n" -ForegroundColor Cyan
+    Write-Host "`nUsage: .\logs.ps1 [options]`n" -ForegroundColor Cyan
     Write-Host "Options:"
     Write-Host "  -days <number>           Number of days to search logs (default: 1)"
     Write-Host "  -logname <name>          Log type (e.g., Application, System, Security)"
